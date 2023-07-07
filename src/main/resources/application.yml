@@ -1,0 +1,25 @@
+
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydoubt
+    username: postgres
+    password: acs123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+  application:
+    name: MY_DOUBT
+  server:
+    port: 8989
+
+app:
+  secret:
+    key: afafasfafafasfasfasfafacasdasfasxASFACASDFACASDFASFASFDAFASFASDAADSCSDFADCVSGCFVADXCcadwavfsfarvf
